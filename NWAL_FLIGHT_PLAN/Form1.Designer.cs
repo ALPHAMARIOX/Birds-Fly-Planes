@@ -38,10 +38,10 @@
             // 
             this.tbcFlight.Controls.Add(this.tbpFlightPlan);
             this.tbcFlight.Controls.Add(this.tbpFlightPlan2);
-            this.tbcFlight.Location = new System.Drawing.Point(-1, -2);
+            this.tbcFlight.Location = new System.Drawing.Point(-1, 27);
             this.tbcFlight.Name = "tbcFlight";
             this.tbcFlight.SelectedIndex = 0;
-            this.tbcFlight.Size = new System.Drawing.Size(1174, 633);
+            this.tbcFlight.Size = new System.Drawing.Size(1174, 604);
             this.tbcFlight.TabIndex = 0;
             // 
             // tbpFlightPlan
@@ -49,7 +49,7 @@
             this.tbpFlightPlan.Location = new System.Drawing.Point(4, 22);
             this.tbpFlightPlan.Name = "tbpFlightPlan";
             this.tbpFlightPlan.Padding = new System.Windows.Forms.Padding(3);
-            this.tbpFlightPlan.Size = new System.Drawing.Size(1166, 607);
+            this.tbpFlightPlan.Size = new System.Drawing.Size(1166, 578);
             this.tbpFlightPlan.TabIndex = 0;
             this.tbpFlightPlan.Text = "Flight Plan";
             this.tbpFlightPlan.UseVisualStyleBackColor = true;

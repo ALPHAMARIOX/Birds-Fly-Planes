@@ -16,6 +16,7 @@ namespace NWAL_FLIGHT_PLAN
     {
         //Attributes.
         //Top form.
+
         private DateTime fpDate; //Date flight was made.
         private string registration; //Registration ID.
         private string aircraftType; //Type of aircraft.
@@ -31,6 +32,11 @@ namespace NWAL_FLIGHT_PLAN
         private string windDir;
         private double windSpd;
 
+        //Fuel.
+        private double reserve;
+
+        //Weight.
+
         //Bottom Form.
 
         private string clearance;
@@ -43,6 +49,14 @@ namespace NWAL_FLIGHT_PLAN
         public string AircraftType { get; set; }
         public string Captain { get; set; }
         public string FirstOfficer { get; set; }
+
+        public string CrAlt { get; set; }
+
+        public string WindDir { get; set; }
+        public double WindSpd { get; set; }
+
+        public string Clearance { get; set; }
+        public string Weather { get; set; }
 
         //Constructor. (Default option).
         public FlightPlan()
