@@ -31,14 +31,14 @@ namespace NWAL_FLIGHT_PLAN
         private tas;
         private string windDir;
         private double windSpd;
-        private dis;
+        private double distance;
         private alternative;
         private route;
         private double crAlt2;
         private trk2;
         private string windDir2;
         private double windSpde2;
-        private dis2;
+        private double distance2;
 
         //Fuel.
         private double reserve;
@@ -130,6 +130,11 @@ namespace NWAL_FLIGHT_PLAN
         }
 
         public double GetTotal()
+        {
+            return 0;
+        }
+
+        public double GetEstimatedAirTime()
         {
             return 0;
         }
