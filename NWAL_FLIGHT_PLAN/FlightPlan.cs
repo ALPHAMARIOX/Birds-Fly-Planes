@@ -16,7 +16,7 @@ namespace NWAL_FLIGHT_PLAN
     {
         //Attributes.
         //Top form.
-
+        private string depatures;
         private DateTime fpDate; //Date flight was made.
         private string registration; //Registration ID.
         private string aircraftType; //Type of aircraft.
@@ -31,6 +31,14 @@ namespace NWAL_FLIGHT_PLAN
         private tas;
         private string windDir;
         private double windSpd;
+        private dis;
+        private alternative;
+        private route;
+        private double crAlt2;
+        private trk2;
+        private string windDir2;
+        private double windSpde2;
+        private dis2;
 
         //Fuel.
         private double reserve;
