@@ -34,16 +34,27 @@ namespace NWAL_FLIGHT_PLAN
 
         //Fuel.
         private double reserve;
+        private double contgy;
+        private double taxi;
+        private double fob;
 
-        //Weight.
+        //Weights.
+        private double pob_est;
+        private double pob_act;
+        private double crew;
+        private double baggage;
+        private double fuelWeight;
+        private double lateLoad;
 
         //Bottom Form.
-
         private string clearance;
         private string weather;
+
+        private string comments;
         
         //Public for the GUI and main program.
         //Properties.
+
         public DateTime FpDate { get; set; }
         public string Registration { get; set; }
         public string AircraftType { get; set; }
@@ -72,6 +83,47 @@ namespace NWAL_FLIGHT_PLAN
             AircraftType = aircraftType;
             Captain = captain;
             FirstOfficer = firstOfficer;
+        }
+
+        //Methods.
+        public double GetBasicWeight()
+        {
+            return 0;
+        }
+
+        public double GetRampWeight()
+        {
+            return 0;
+        }
+
+        public double GetZFWT()
+        {
+            return 0;
+        }
+
+        public double GetTaxiBurn()
+        {
+            return 0;
+        }
+
+        public double GetTOWeight()
+        {
+            return 0;
+        }
+
+        public double GetFuelBurned()
+        {
+            return 0;
+        }
+
+        public double GetLanding()
+        {
+            return 0;
+        }
+
+        public double GetTotal()
+        {
+            return 0;
         }
     }
 }
