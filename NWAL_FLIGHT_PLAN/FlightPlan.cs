@@ -16,22 +16,25 @@ namespace NWAL_FLIGHT_PLAN
     {
         //Attributes.
         //Top form.
-
         private DateTime fpDate; //Date flight was made.
-        private string registration;
-        private string aircraftType;
-        private string captain;
-        private string firstOfficer;
+        private string registration; //Registration ID.
+        private string aircraftType; //Type of aircraft.
+        private string captain; //Name of captain.
+        private string firstOfficer; //Name of first officer.
         
         //Middle Form.
         private plr;
         private apr;
         private double crAlt;
         private trk;
-        private windDir;
+        private tas;
+        private string windDir;
+        private double windSpd;
 
         //Bottom Form.
 
+        private string clearance;
+        private string weather;
         
         //Public for the GUI and main program.
         //Properties.
@@ -47,6 +50,7 @@ namespace NWAL_FLIGHT_PLAN
 
         }
 
+        //Constructor that requires more information to be filled in.
         public FlightPlan(DateTime fpDate, string registration, string aircraftType, string captain, string firstOfficer)
         {
             FpDate = fpDate;
